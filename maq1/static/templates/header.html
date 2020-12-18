@@ -1,0 +1,30 @@
+ <div class="container">
+        <nav class="navbar navbar-expand-xl">
+            <a class="navbar-brand" href="#">
+                CINDER
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="index.php">Главная <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Каталог
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <form id="search" action="show.php">
+                                <input class="dropdown-item" type="button" value="iPhone" id="iPhone" onclick="selectGoods(this)">
+                                <input class="dropdown-item" type="button" value="MacBook Pro" id="Pro" onclick="selectGoods(this)">
+                                <input class="dropdown-item" type="button" value="MacBook Air" id="Air" onclick="selectGoods(this)">
+                                <div class="dropdown-divider"></div>
+                                <input class="dropdown-item" type="submit" value="Все товары">
+                            </form>
+
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contact.php">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.php" ><i class="fas fa-shopping-bag"></i></a></li>
+                    <li class="nav-item"><a class="nav-link" href="../admin/index.php">Админка</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
